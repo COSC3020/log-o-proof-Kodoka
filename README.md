@@ -41,42 +41,13 @@ $log_{2} n = \frac{\log_{5} n}{\log{5} 2}$
 $log_{2} n = \frac{1}{\log{5} 2} \cdot \log_{5} n$  
 $log_{2} n = c \cdot \log_{5} n$, where $c = \frac{1}{\log{5} 2}$  
 $log_{2} n = c \cdot \log_{5} n \implies log_{2} n \leq c \cdot \log_{5}$  
-Thus $\log_{2} n \in O(\log_{5} n)$.
+Thus $\log_{2} n \in O(\log_{5} n)$.  
 
-        
-
-
-
-
-with positive bases, $a$, $b \neq 1$, where $a$, $b \in \mathbb{N}$
-
-
-
-
-, $\log_{a} n$, can be represented in terms of $\log_{b} n$, where $a$, $b \in \mathbb{N}$,  
-and $a$, $b \neq 1$. As $\log_{b} a$ is a constant value for any given $a$, $b$ which satisfies  
-the previously established conditions, we can represent $\frac{1}{\log_{b} a}$ as a constant, $c$.  
-Thus $\log_{a} n=c \cdot \log_{b} n$, where $c= \frac{1}{\log_{b} a}$.  
-As $\log_{a} n=c \cdot \log_{b} n \implies \log_{a} n \le c \cdot \log_{b} n$
-
-
-
-any two logaritms with positive bases, $a$, $b \in \mathbb{N}$, where $a$, $b \neq 1$, can  
-be represented in terms of each other. Futher, for any given $a$, $b$ satisfying the  
-previously established conditions, any 
-
-----------------------------------------------------------
-
-Using the change of base rule, for positive logarithms, with positive bases not equal  
-to 1, we can change the base to any value, thus we can represent $\log_{2} n$ in terms  
-of $\log_{5} n$.  
-$\log_{2} n = \frac{\log_{5} n}{\log_{5} 2} = \frac{1}{\log_{5} 2} \cdot \log_{5} n$  
-or, as $\frac{1}{\log_{5} 2}$ is a positive constant value:  
-$c \cdot \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$  
-Thus we've demonstrated there exists a value of $c$:  
-$c = \frac{1}{\log_{5} 2}$  
-such that, for some value of $n_0$, all $n \ge n_0$ that $T(n) \le c \cdot f(n)$.  
-That is to say, for the purpose of asymptotic complexity, $O(\log_{2} n)= O(\log_{5} n)$  
+$log_{5} n = \frac{\log_{2} n}{\log{2} 5}$
+$log_{5} n = \frac{1}{\log{2} 5} \cdot \log_{2} n$  
+$log_{5} n = c \cdot \log_{2} n$, where $c = \frac{1}{\log{2} 5}$  
+$log_{5} n = c \cdot \log_{2} n \implies log_{5} n \leq c \cdot \log_{2}$  
+Thus $\log_{5} n \in O(\log_{2} n)$.  
 
 # Sources
 
