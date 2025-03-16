@@ -36,6 +36,6 @@ That is to say, for the purpose of asymptotic complexity, $O(\log_{2} n)=O(\log_
 For the Chance of Base Log rule:  
 https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:change-of-base/a/logarithm-change-of-base-rule-intro  
 
-#Plagiarism Notice
+# Plagiarism Notice
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
