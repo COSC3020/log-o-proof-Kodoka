@@ -40,7 +40,7 @@ For any $n \geq n_0 = 2$,
 $log_{2} n = \frac{\log_{5} n}{\log{5} 2}$  
 $log_{2} n = \frac{1}{\log{5} 2} \cdot \log_{5} n$  
 $log_{2} n = c \cdot \log_{5} n$, where $c = \frac{1}{\log{5} 2}$  
-$log_{2} n = c \cdot \log_{5} n \implies log_{2} n \leq c \cdot \log_{5}
+$log_{2} n = c \cdot \log_{5} n \implies log_{2} n \leq c \cdot \log_{5}$  
 Thus $\log_{2} n \in \log_{5} n$.
 
         
