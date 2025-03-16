@@ -27,6 +27,6 @@ $\log_{2} n = \frac{\log_{5} n}{\log_{5} 2} = \frac{1}{\log_{5} 2} \cdot \log_{5
 or:  
 $c \cdot \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$  
 Thus we've demonstrated there exists a value of $c$:  
-$c = \frac{1}{\log_{5} 2}$
+$c = \frac{1}{\log_{5} 2}$  
 such that, for some value of $n_0$, all $n \ge n_0$ that $T(n) \le c \cdot f(n)$.  
 That is to say, for the purpose of asymptotic complexity, $O(\log_{2} n)=O(\log_{5} n)$
