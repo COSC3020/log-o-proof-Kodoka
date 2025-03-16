@@ -29,7 +29,7 @@ $c \cdot \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$
 Thus we've demonstrated there exists a value of $c$:  
 $c = \frac{1}{\log_{5} 2}$  
 such that, for some value of $n_0$, all $n \ge n_0$ that $T(n) \le c \cdot f(n)$.  
-That is to say, for the purpose of asymptotic complexity, $O(\log_{2} n)\in O(\log_{5} n)$  
+That is to say, for the purpose of asymptotic complexity, $O(\log_{2} n)= O(\log_{5} n)$  
 
 # Sources
 
