@@ -20,6 +20,13 @@ That is to say $T(n)$ is an element of $O(f(n))$ if, and only if, there exists a
 least one value of $c$, and some value, $n_0$, where, for all  
 $n \ge n_0$, it is true that $T(n) \le c \cdot f(n)$.  
 
+Via the Change of Base rule,  
+$\log_{a} x = \frac{\log_{b} x}{\log_{b} a}$,
+any two logaritms with positive bases, $a$ and $b$, where  
+$a$ and $b \neq 1$, can be represented in terms of each other.
+
+----------------------------------------------------------
+
 Using the change of base rule, for positive logarithms, with positive bases not equal  
 to 1, we can change the base to any value, thus we can represent $\log_{2} n$ in terms  
 of $\log_{5} n$.  
