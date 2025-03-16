@@ -27,7 +27,7 @@ in terms of any logarithm, $\log_{b} n$, with any positive base, $b \neq 1 \in \
 variable $n$, where $n \ge 2$  
 
 As, for any given $a$, $b$ which satisfies the previously established conditions, $\log_{b} a$ is  
-representative of a constant value, we can represent $\frac{1}{\log_?{b} a}$ as a constant, $c$.
+representative of a constant value, we can represent $\frac{1}{\log_{b} a}$ as a constant, $c$.
 
 This gives us $\log_{a} n=c \cdot \log_{b} n$, where $c= \frac{1}{\log_{b} a}$.  
 
