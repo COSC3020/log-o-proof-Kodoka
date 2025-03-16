@@ -36,16 +36,19 @@ Let $T(n)= \log_{a} n$, $c=c_1$, and $f(n)=\log_{b} n$, by definition $T(n) \in 
 
 # Specific Proof
 
+For $\log_{2} n \in O(\log_{5} n)$  
 For any $n \geq n_0 = 2$,  
-$\log_{2} n = \frac{\log_{5} n}{\log{5} 2}$  
-$\log_{2} n = \frac{1}{\log{5} 2} \cdot \log_{5} n$  
-$\log_{2} n = c \cdot \log_{5} n$, where $c = \frac{1}{\log{5} 2}$  
+$\log_{2} n = \frac{\log_{5} n}{\log_{5} 2}$  
+$\log_{2} n = \frac{1}{\log_{5} 2} \cdot \log_{5} n$  
+$\log_{2} n = c \cdot \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$  
 $\log_{2} n = c \cdot \log_{5} n \implies log_{2} n \leq c \cdot \log_{5}$  
 Thus $\log_{2} n \in O(\log_{5} n)$.  
 
-$\log_{5} n = \frac{\log_{2} n}{\log{2} 5}$
-$\log_{5} n = \frac{1}{\log{2} 5} \cdot \log_{2} n$  
-$\log_{5} n = c \cdot \log_{2} n$, where $c = \frac{1}{\log{2} 5}$  
+And for $\log_{5} n \in O(\log_{2} n)$  
+For any $n \geq n_0 = 2$,  
+$\log_{5} n = \frac{\log_{2} n}{\log_{2} 5}$
+$\log_{5} n = \frac{1}{\log_{2} 5} \cdot \log_{2} n$  
+$\log_{5} n = c \cdot \log_{2} n$, where $c = \frac{1}{\log_{2} 5}$  
 $\log_{5} n = c \cdot \log_{2} n \implies log_{5} n \leq c \cdot \log_{2}$  
 Thus $\log_{5} n \in O(\log_{2} n)$.  
 
