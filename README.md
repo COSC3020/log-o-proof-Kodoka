@@ -21,4 +21,4 @@ least one value of $c$, where there exists some value, $n_0$, where, for all
 $n \ge n_0$ it is true that $T(n) \le cf(n)$.  
 
 Using the change of base rule, we can represent $\log_{2} n$ differently.  
-$\log_{2} n = \frac{\log_{5} n}{\log_{5} 2} = \frac{1}{\log_{5} 2} \log_{5} n$
+$\log_{2} n = \frac{\log_{5} n}{\log_{5} 2} = \frac{1}{\log_{5} 2} \cdot \log_{5} n$
