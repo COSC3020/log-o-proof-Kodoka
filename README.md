@@ -17,12 +17,14 @@ $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0
 Starting with the formal definition of $O$:  
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$  
 That is to say $T(n)$ is an element of $O(f(n))$ if, and only if, there exists at  
-least one value of $c$, where there exists some value, $n_0$, where, for all  
-$n \ge n_0$ it is true that $T(n) \le cf(n)$.  
+least one value of $c$, and some value, $n_0$, where, for all  
+$n \ge n_0$, it is true that $T(n) \le c \cdot f(n)$.  
 
 Using the change of base rule, we can represent $\log_{2} n$ differently.  
 $\log_{2} n = \frac{\log_{5} n}{\log_{5} 2} = \frac{1}{\log_{5} 2} \cdot \log_{5} n$  
 or:  
 $c \cdot \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$  
-Thus we've demonstrated there exists a value of $c = \frac{1}{\log_{5} 2}$, such that for  
-some value of $n_0$, all $n \ge n_0$ that $T(n) \le c \cdot f(n)$.
+Thus we've demonstrated there exists a value of $c$:  
+$c = \frac{1}{\log_{5} 2}$
+such that, for some value of $n_0$, all $n \ge n_0$ that $T(n) \le c \cdot f(n)$.  
+That is to say, for the purpose of asymptotic complexity, $O(\log_{2} n)=O(\log_{5} n)$
