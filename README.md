@@ -24,12 +24,15 @@ Via the Change of Base rule,
 $\log_{a} n = \frac{\log_{b} n}{\log_{b} a}$  
 any logarithm, $\log_{a} n$, with any positive base, $a \neq 1 \in \mathbb{N}$ can be represented  
 in terms of any logarithm, $\log_{b} n$, with any positive base, $b \neq 1 \in \mathbb{N}$ for any  
-variable $n$, where $n \ge 2$  
+variable $n$, where $n \geq n_0, n_0 = 2$  
 
 As, for any given $a$, $b$ which satisfies the previously established conditions, $\log_{b} a$ is  
-representative of a constant value, we can represent $\frac{1}{\log_{b} a}$ as a constant, $c$.
+representative of a constant value, we can represent $\frac{1}{\log_{b} a}$ as a constant, $c_1$.
 
-This gives us $\log_{a} n=c \cdot \log_{b} n$, where $c= \frac{1}{\log_{b} a}$.  
+This gives us $\log_{a} n=c_1 \cdot \log_{b} n$, where $c_1= \frac{1}{\log_{b} a}$.  
+That is to say for all $n \geq n_0$, $\log_{a} n=c_1 \cdot \log{b} n$.
+
+Now, let $T(n)= \log_{a} n$, $c=c_1$, and $f(n)=\log_{b} n$,
 
 
 
