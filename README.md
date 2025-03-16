@@ -26,7 +26,14 @@ any logarithm, $\log_{a} n$, with any positive base, $a \neq 1 \in \mathbb{N}$ c
 in terms of any logarithm, $\log_{b} n$, with any positive base, $b \neq 1 \in \mathbb{N}$ for any  
 variable $n$, where $n \ge 2$  
 
-For any given $a$, $b$ which satisfis the previously established conditions
+As, for any given $a$, $b$ which satisfies the previously established conditions, $\log_{b} a$ is  
+representative of a constant value, we can represent $\frace{1}{\log_?{b} a}$ as a constant, $c$.
+
+This gives us $\log_{a} n=c \cdot \log_{b} n$, where $c= \frac{1}{\log_{b} a}$.  
+
+
+
+        
 
 
 
