@@ -30,7 +30,7 @@ As, for any given $a$, $b$ which satisfies the previously established conditions
 representative of a constant value, we can represent $\frac{1}{\log_{b} a}$ as a constant, $c_1$.
 
 This gives us $\log_{a} n=c_1 \cdot \log_{b} n$, where $c_1= \frac{1}{\log_{b} a}$.  
-That is to say for all $n \geq n_0$, $\log_{a} n=c_1 \cdot \log{b} n$.
+That is to say for all $n \geq n_0$, $\log_{a} n=c_1 \cdot \log_{b} n \implies \log_{a} n \leq c_1 \cdot \log_{b} n$.
 
 Now, let $T(n)= \log_{a} n$, $c=c_1$, and $f(n)=\log_{b} n$,
 
