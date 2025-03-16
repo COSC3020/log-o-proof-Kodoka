@@ -23,6 +23,6 @@ $n \ge n_0$ it is true that $T(n) \le cf(n)$.
 Using the change of base rule, we can represent $\log_{2} n$ differently.  
 $\log_{2} n = \frac{\log_{5} n}{\log_{5} 2} = \frac{1}{\log_{5} 2} \cdot \log_{5} n$  
 or:  
-$c \cdot \log_{5} n$ where $c = \frac{1}{\log_{5} 2}$  
-
-For the purposes of asymptotic complexity, const
+$c \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$  
+Thus we've demonstrated there exists a value of $c = \frac{1}{\log_{5} 2}$, such that
+for some value of $n_0$, all $n \ge n_0$ that $T(n) \le cf(n)$.
