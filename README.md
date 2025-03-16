@@ -25,7 +25,10 @@ $\log_{a} n = \frac{\log_{b} n}{\log_{b} a}$
 any logarithm, $\log_{a} n$, can be represented in terms of $\log_{b} n$, where $a$, $b \in \mathbb{N}$,  
 and $a$, $b \neq 1$. As $\log_{b} a$ is a constant value for any given $a$, $b$ which satisfies  
 the previously established conditions, we can represent $\frac{1}{\log_{b} a}$ as a constant, $c$.  
-Thus $\log_{a} n=c \cdot \log_{b} n$, where $c= \frac{1}{\log_{b} a}$.
+Thus $\log_{a} n=c \cdot \log_{b} n$, where $c= \frac{1}{\log_{b} a}$.  
+As $\log_{a} n=c \cdot \log_{b} n \implies $\log_{a} n \le c \cdot \log_{b} n$
+
+
 
 any two logaritms with positive bases, $a$, $b \in \mathbb{N}$, where $a$, $b \neq 1$, can  
 be represented in terms of each other. Futher, for any given $a$, $b$ satisfying the  
