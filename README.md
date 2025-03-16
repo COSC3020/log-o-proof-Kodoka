@@ -54,8 +54,10 @@ Thus $\log_{5} n \in O(\log_{2} n)$.
 
 # Sources
 
-For the Chance of Base Log rule:  
+For the Change of Base Log rule:  
 https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:change-of-base/a/logarithm-change-of-base-rule-intro  
+
+Wasn't happy with my original proof, so I reworked it. I referenced the proof: https://github.com/COSC3020/log-o-proof-regtoga/tree/main, as of commit: ab9ae62. I thought their proof was very readable, well formated, and better conveyed they idea than mine. Hopefully my work emulates that.
 
 # Plagiarism Notice
 
