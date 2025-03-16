@@ -12,7 +12,7 @@ might help with the notation for mathematical expressions.
 
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$  
 
-# Proof  
+# General Proof  
 
 Starting with the formal definition of $O$:  
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$  
@@ -32,9 +32,16 @@ representative of a constant value, we can represent $\frac{1}{\log_{b} a}$ as a
 This gives us $\log_{a} n=c_1 \cdot \log_{b} n$, where $c_1= \frac{1}{\log_{b} a}$.  
 That is to say for all $n \geq n_0$, $\log_{a} n=c_1 \cdot \log_{b} n \implies \log_{a} n \leq c_1 \cdot \log_{b} n$.
 
-Now, let $T(n)= \log_{a} n$, $c=c_1$, and $f(n)=\log_{b} n$,
+Let $T(n)= \log_{a} n$, $c=c_1$, and $f(n)=\log_{b} n$, by definition $T(n) \in O(f(n))$
 
+# Specific Proof
 
+For any $n \geq n_0 = 2$,  
+$log_{2} n = \frac{\log_{5} n}{\log{5} 2}$  
+$log_{2} n = \frac{1}{\log{5} 2} \cdot \log_{5} n$  
+$log_{2} n = c \cdot \log_{5} n$, where $c = \frac{1}{\log{5} 2}$  
+$log_{2} n = c \cdot \log_{5} n \implies log_{2} n \leq c \cdot \log_{5}
+Thus $\log_{2} n \in \log_{5} n$.
 
         
 
