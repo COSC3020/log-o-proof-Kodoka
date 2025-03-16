@@ -21,9 +21,13 @@ least one value of $c$, and some value, $n_0$, where, for all
 $n \ge n_0$, it is true that $T(n) \le c \cdot f(n)$.  
 
 Via the Change of Base rule,  
-$\log_{a} n = \frac{\log_{b} n}{\log_{b} a}$ ,  
+$\log_{a} n = \frac{\log_{b} n}{\log_{b} a}$  
+any logarithm, $\log_{a} n$, can be represented in terms of $\log_{b} n$, where $a$, $b \in \mathbb{N}$,  
+and $a$, $b \new 1$.
+
 any two logaritms with positive bases, $a$, $b \in \mathbb{N}$, where $a$, $b \neq 1$, can  
-be represented in terms of each other.
+be represented in terms of each other. Futher, for any given $a$, $b$ satisfying the  
+previously established conditions, any 
 
 ----------------------------------------------------------
 
