@@ -22,7 +22,21 @@ $n \ge n_0$, it is true that $T(n) \le c \cdot f(n)$.
 
 Via the Change of Base rule,  
 $\log_{a} n = \frac{\log_{b} n}{\log_{b} a}$  
-any logarithm, $\log_{a} n$, can be represented in terms of $\log_{b} n$, where $a$, $b \in \mathbb{N}$,  
+any logarithm, $\log_{a} n$, with any positive base, $a \neq 1 \in \mathbb{N}$ can be represented  
+in terms of any logarithm, $\log_{b} n$, with any positive base, $b \neq 1 \in \mathbb{N}$ for any  
+variable $n$, where $n \ge 2$  
+
+For any given $a$, $b$ which satisfis the previously established conditions
+
+
+
+
+with positive bases, $a$, $b \neq 1$, where $a$, $b \in \mathbb{N}$
+
+
+
+
+, $\log_{a} n$, can be represented in terms of $\log_{b} n$, where $a$, $b \in \mathbb{N}$,  
 and $a$, $b \neq 1$. As $\log_{b} a$ is a constant value for any given $a$, $b$ which satisfies  
 the previously established conditions, we can represent $\frac{1}{\log_{b} a}$ as a constant, $c$.  
 Thus $\log_{a} n=c \cdot \log_{b} n$, where $c= \frac{1}{\log_{b} a}$.  
