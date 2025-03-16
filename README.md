@@ -29,4 +29,13 @@ $c \cdot \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$
 Thus we've demonstrated there exists a value of $c$:  
 $c = \frac{1}{\log_{5} 2}$  
 such that, for some value of $n_0$, all $n \ge n_0$ that $T(n) \le c \cdot f(n)$.  
-That is to say, for the purpose of asymptotic complexity, $O(\log_{2} n)=O(\log_{5} n)$
+That is to say, for the purpose of asymptotic complexity, $O(\log_{2} n)=O(\log_{5} n)$  
+
+# Sources
+
+For the Chance of Base Log rule:  
+https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:change-of-base/a/logarithm-change-of-base-rule-intro  
+
+#Plagiarism Notice
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
