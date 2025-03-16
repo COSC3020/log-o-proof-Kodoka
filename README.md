@@ -24,7 +24,7 @@ Using the change of base rule, for positive logarithms, with positive bases not 
 to 1, we can change the base to any value, thus we can represent $\log_{2} n$ in terms  
 of $\log_{5} n$.  
 $\log_{2} n = \frac{\log_{5} n}{\log_{5} 2} = \frac{1}{\log_{5} 2} \cdot \log_{5} n$  
-or, as $ \frac{1}{\log_{5} 2} represents a constant value:  
+or, as $ \frac{1}{\log_{5} 2}$ is a positive constant value:  
 $c \cdot \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$  
 Thus we've demonstrated there exists a value of $c$:  
 $c = \frac{1}{\log_{5} 2}$  
