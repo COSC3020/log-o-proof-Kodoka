@@ -57,6 +57,10 @@ https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb
 
 Wasn't happy with my original proof, so I reworked it. I referenced the proof: https://github.com/COSC3020/log-o-proof-regtoga/tree/main, as of commit: ab9ae62. I thought their proof was very readable, well formated, and better conveyed they idea than mine. Hopefully my work emulates that.
 
+For help writing proofs:  
+https://www.hamilton.edu/documents/Writing%20Mathematical%20Proofs1.pdf  
+https://ananddeopurkar.org/teaching/algebra1/cheng.pdf  
+
 # Plagiarism Notice
 
 I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
