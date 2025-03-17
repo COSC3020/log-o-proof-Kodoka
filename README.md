@@ -50,14 +50,6 @@ $\log_{2} n \leq c \cdot \log_{5} n$ for all $n \geq 2$
 Thus, by the definition of $O$:  
 $\log_{2} n \in O(\log_{5} n)$.  
 
-And for $\log_{5} n \in O(\log_{2} n)$  
-For any $n \geq n_0 = 2$,  
-$\log_{5} n = \frac{\log_{2} n}{\log_{2} 5}$
-$\log_{5} n = \frac{1}{\log_{2} 5} \cdot \log_{2} n$  
-$\log_{5} n = c \cdot \log_{2} n$, where $c = \frac{1}{\log_{2} 5}$  
-$\log_{5} n = c \cdot \log_{2} n \implies log_{5} n \leq c \cdot \log_{2}$  
-Thus $\log_{5} n \in O(\log_{2} n)$.  
-
 # Sources
 
 For the Change of Base Log rule:  
