@@ -36,13 +36,19 @@ Let $T(n)= \log_{a} n$, $c=c_1$, and $f(n)=\log_{b} n$, by definition $T(n) \in 
 
 # Specific Proof
 
-For $\log_{2} n \in O(\log_{5} n)$  
-For any $n \geq n_0 = 2$,  
+To show that $\log_{2} n \in O(\log_{5} n)$, by the definition of $O$, we  
+must find $c > 0, n_0 > 0$ such that $\log_{2} n \leq c \cdot \log_{5} n$  
+for all $n \geq n_0$.  
+Let $n_0 = 2$.  
+Then, via change of base, we can determine a constant, $c$.  
 $\log_{2} n = \frac{\log_{5} n}{\log_{5} 2}$  
 $\log_{2} n = \frac{1}{\log_{5} 2} \cdot \log_{5} n$  
 $\log_{2} n = c \cdot \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$  
-$\log_{2} n = c \cdot \log_{5} n \implies log_{2} n \leq c \cdot \log_{5}$  
-Thus $\log_{2} n \in O(\log_{5} n)$.  
+$\log_{2} n = c \cdot \log_{5} n \implies log_{2} n \leq c \cdot \log_{5} n$  
+Thus we have:  
+$\log_{2} n \leq c \cdot \log_{5} n$ for all $n \geq 2$  
+Thus, by the definition of $O$:  
+$\log_{2} n \in O(\log_{5} n)$.  
 
 And for $\log_{5} n \in O(\log_{2} n)$  
 For any $n \geq n_0 = 2$,  
