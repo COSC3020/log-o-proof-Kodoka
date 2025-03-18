@@ -36,19 +36,19 @@ Let $T(n)= \log_{a} n$, $c=c_1$, and $f(n)=\log_{b} n$, by definition $T(n) \in 
 
 # Specific Proof
 
-To show that $\log_{2} n \in O(\log_{5} n)$, by the definition of $O$, we  
-must find $c > 0, n_0 > 0$ such that $\log_{2} n \leq c \cdot \log_{5} n$ for all $n \geq n_0$.  
+To show that $T(n) \in O(\log_{5} n)$, by the definition of $O$, we  
+must find $c > 0, n_0 > 0$ such that $T(n) \leq c \cdot \log_{5} n$ for all $n \geq n_0$.  
 
 Let $n_0 = 2$.  
 Then, via change of base, we can determine a constant, $c$.  
-$\log_{2} n = \frac{\log_{5} n}{\log_{5} 2}$  
-$\log_{2} n = \frac{1}{\log_{5} 2} \cdot \log_{5} n$  
-$\log_{2} n = c \cdot \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$  
-$\log_{2} n = c \cdot \log_{5} n \implies log_{2} n \leq c \cdot \log_{5} n$  
+$T(n) = \frac{\log_{5} n}{\log_{5} 2}$  
+$T(n) = \frac{1}{\log_{5} 2} \cdot \log_{5} n$  
+$T(n) = c \cdot \log_{5} n$, where $c = \frac{1}{\log_{5} 2}$  
+$T(n) = c \cdot \log_{5} n \implies log_{2} n \leq c \cdot \log_{5} n$  
 Thus we have:  
-$\log_{2} n \leq c \cdot \log_{5} n$ for all $n \geq 2$  
+$T(n) \leq c \cdot \log_{5} n$ for all $n \geq 2$  
 Thus, by the definition of $O$:  
-$\log_{2} n \in O(\log_{5} n)$.  
+$T(n) \in O(\log_{5} n)$.  
 
 # Sources
 
