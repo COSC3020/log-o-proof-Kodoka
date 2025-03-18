@@ -36,7 +36,7 @@ Let $T(n)= \log_{a} n$, $c=c_1$, and $f(n)=\log_{b} n$, by definition $T(n) \in 
 
 # Specific Proof
 
-Assume some $T(n) \in O(log_{5} n$, then there must exist some constant, $c$, and $n_0$,  
+Assume some $T(n) \in O(log_{5} n)$, then there must exist some constant, $c$, and $n_0$,  
 such that, for all $n > n_0$, $T(n) \leq c \cdot \log_{5} n$.
 
 To show that $T(n) \in O(\log_{5} n)$, by the definition of $O$, we  
