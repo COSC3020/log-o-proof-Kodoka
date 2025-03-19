@@ -12,29 +12,7 @@ might help with the notation for mathematical expressions.
 
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$  
 
-# General Proof  
-
-Starting with the formal definition of $O$:  
-$T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$  
-That is to say $T(n)$ is an element of $O(f(n))$ if, and only if, there exists at  
-least one value of $c$, and some value, $n_0$, where, for all  
-$n \ge n_0$, it is true that $T(n) \le c \cdot f(n)$.  
-
-Via the Change of Base rule,  
-$\log_{a} n = \frac{\log_{b} n}{\log_{b} a}$  
-any logarithm, $\log_{a} n$, with any positive base, $a \neq 1 \in \mathbb{N}$ can be represented  
-in terms of any logarithm, $\log_{b} n$, with any positive base, $b \neq 1 \in \mathbb{N}$ for any  
-variable $n$, where $n \geq n_0, n_0 = 2$  
-
-As, for any given $a$, $b$ which satisfies the previously established conditions, $\log_{b} a$ is  
-representative of a constant value, we can represent $\frac{1}{\log_{b} a}$ as a constant, $c_1$.
-
-This gives us $\log_{a} n=c_1 \cdot \log_{b} n$, where $c_1= \frac{1}{\log_{b} a}$.  
-That is to say for all $n \geq n_0$, $\log_{a} n=c_1 \cdot \log_{b} n \implies \log_{a} n \leq c_1 \cdot \log_{b} n$.
-
-Let $T(n)= \log_{a} n$, $c=c_1$, and $f(n)=\log_{b} n$, by definition $T(n) \in O(f(n))$
-
-# Specific Proof
+# The Most Amazing and Flawless Proof of All Time
 
 Assume some $T(n) \in O(\log_{5} n)$, then there must exist some constant,  
 $c$, and $n_0$, such that, for all $n > n_0$, $T(n) \leq c \cdot \log_{5} n$, or:  
