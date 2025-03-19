@@ -41,8 +41,8 @@ $c$, and $n_0$, such that, for all $n > n_0$, $T(n) \leq c \cdot \log_{5} n$, or
 $T(n) \in O(\log_{5} n) \iff \exists c, n_0: T(n) \leq c \cdot \log_{5} n$, $\forall n \geq n_0$  
 Via change of base, we can write that expression as:  
 $T(n) \in O(\log_{5} n) \iff \exists c, n_0: T(n) \leq c \cdot \frac{\log_{5} n}{\log_{5} 2} n$, $\forall n \geq n_0$  
-As $\frac{1}{\log_{5} 2} represents a constant, we then have:  
-$T(n) \in O(\log_{5} n) \iff \exists c, n_0: T(n) \leq c \cdot \log_{5} n$, $\forall n \geq n_0$ where $c = \frac{1}{\log_{5} 2}$  
+As $\frac{1}{\log_{5} 2}$ represents a constant, we then have:  
+$T(n) \in O(\log_{5} n) \iff \exists c, n_0: T(n) \leq c \cdot \log_{5} n$, $\forall n \geq n_0$ where we define $c$ as $\frac{1}{\log_{5} 2}$  
 
 Via change of base, we can write $\log_{5} n$ as $\frac{\log_{x} n}{\log_{x} 5}$  
 Then $\frac{\log_{x} n}{\log_{x} 5} = \frac{1}{\log_{x} 5} \cdot \log_{x} n$  
