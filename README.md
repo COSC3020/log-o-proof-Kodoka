@@ -54,7 +54,7 @@ Via change of base, we can write that expression as:
 $T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \frac{\log_{5} n}{\log_{5} 2}$, $\forall n \geq n_0$.  
 As $\frac{1}{\log_{5} 2}$ represents a constant, we then have:  
 $T(n) \in O(\log_{2} n) \iff \exists c, n_0: T(n) \leq c \cdot \log_{5} n$, $\forall n \geq n_0$, where we define $c$ as $\frac{1}{\log_{5} 2}$.  
-Thus, for any $T(n)$, $T(n) \in O(\log_{2} n)$, and consequently $T(n) \in O(\log_{5} n).
+Thus, for any $T(n)$, $T(n) \in O(\log_{2} n)$, and consequently $T(n) \in O(\log_{5} n)$.
 
 # Sources
 
