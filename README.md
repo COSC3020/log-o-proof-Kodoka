@@ -36,10 +36,10 @@ Let $T(n)= \log_{a} n$, $c=c_1$, and $f(n)=\log_{b} n$, by definition $T(n) \in 
 
 # Specific Proof
 
-Assume some $T(n) \in O(\log_{5} n)$, then there must exist some constant, $c$, and $n_0$,  
-such that, for all $n > n_0$, $T(n) \leq c \cdot \log_{5} n$.  
-Via change of base, we can write $\log_{5} n$ as $\frac{\log_{x} n}{\log_{x} 5}$
-Then $\frac{\log_{x} n}{\log_{x} 5} = \frac{1}{\log_{x} 5} \cdot \log_{x} n$
+Assume some $T(n) \in O(\log_{5} n)$, then there must exist some constant,  
+$c$, and $n_0$, such that, for all $n > n_0$, $T(n) \leq c \cdot \log_{5} n$.  
+Via change of base, we can write $\log_{5} n$ as $\frac{\log_{x} n}{\log_{x} 5}$  
+Then $\frac{\log_{x} n}{\log_{x} 5} = \frac{1}{\log_{x} 5} \cdot \log_{x} n$  
 
 To show that $T(n) \in O(\log_{5} n)$, by the definition of $O$, we  
 must find $c > 0, n_0 > 0$ such that $T(n) \leq c \cdot \log_{5} n$ for all $n \geq n_0$.  
